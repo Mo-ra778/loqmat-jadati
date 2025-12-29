@@ -1,0 +1,46 @@
+# Ignore configuration files
+config.php
+
+# Ignore uploaded files
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+uploads/*.gif
+uploads/*.webp
+!uploads/.gitkeep
+
+# Keep the uploads directory structure
+!uploads/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Ignore backup files
+*.bak
+*.backup
+*.old
+
+# Ignore node_modules if using any JS tools
+node_modules/
+
+# Ignore vendor if using Composer
+vendor/
+
+# Ignore system files
+.htaccess.local
+.env
+.env.local
